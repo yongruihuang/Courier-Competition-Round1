@@ -4,10 +4,15 @@
 比赛链接：https://tianchi.aliyun.com/competition/entrance/231777/information
 
 结果:
-| name     | score | MAE | rank| 
-| :--------|:------|:----|:----|
-|正方形的圆| 0.825 | 106 | 1   |
+| Name     | Score | MAE | Rank|Team member| 
+| :--------|:------|:----|:----|:----------|
+|正方形的圆| 0.825 | 106 | 1   |https://github.com/aker218<br>https://github.com/yongruihuang|
 
+
+
+:
+
+2.
 
 # 主要思路：
 1. 训练样本的组合并不是直接每一个action作为一个样本，而是2个action组成pair作为一个样本，比如一个骑手有6个需要选择的行动步（1,2,3,4,5,6）,其中选择1为正确答案，那么组成pair(1,2, positive),(2,1,negative) (1,3,positive) (3,1,negative),然后预测的时候若有6个样本，则组成30个pair，然后每个pair看那个胜出，选择那个胜出的。
