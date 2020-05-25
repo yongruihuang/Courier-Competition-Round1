@@ -1,0 +1,18 @@
+2020-04-15 21:56:49,308 - INFO - start prediction
+2020-04-15 21:58:07,094 - INFO - start
+2020-04-15 21:58:22,577 - INFO - end
+/home/huangweilin/anaconda3/envs/hyr/lib/python3.6/site-packages/pandas/core/series.py:1155: FutureWarning: 
+Passing list-likes to .loc or [] with any missing label will raise
+KeyError in the future, you can use .reindex() as an alternative.
+
+See the documentation here:
+https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#deprecate-loc-reindex-listlike
+  return self.loc[key]
+2020-04-15 22:04:17,944 - INFO - 999
+2020-04-15 22:10:21,762 - INFO - 1999
+2020-04-15 22:16:38,721 - INFO - 2999
+2020-04-15 22:23:24,063 - INFO - 3999
+2020-04-15 22:24:41,233 - INFO - origin feature lens: 118
+2020-04-15 22:24:41,233 - INFO - start building se_pairs
+2020-04-15 22:25:26,748 - INFO - finish building se_pairs
+2020-04-15 22:28:10,258 - INFO - finish prediction
